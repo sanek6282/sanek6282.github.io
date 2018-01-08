@@ -1299,7 +1299,7 @@ body {
     cursor: pointer;
 }
 
-.fa {
-    font-size: 28px;
-    color: green;
+.contact_mail,
+.contact_vk {
+    color: #000;
 }
