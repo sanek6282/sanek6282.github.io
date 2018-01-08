@@ -578,6 +578,7 @@ body {
     background: #f5f5f5;
     cursor: initial;
     z-index: 3;
+    height: 100vh;
 }
 
                     /*------------------
@@ -1302,4 +1303,12 @@ body {
 .contact_mail,
 .contact_vk {
     color: #000;
+}
+
+.contact_bottom  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
 }
