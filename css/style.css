@@ -1,20 +1,5 @@
 /*
---------------------------------------------------------* 
-
-[INSTA, Main Stylesheet ]
-
-    Color        : RED ( #E94C6F )
-
-    Name         : INSTA - Responsive Onepage Resume Template
-
-    Version      :  1.0 
-
-    Author       :  Pixel_Factory
-
-    Author URI   :  http://themeforest.net/user/Pixel_Factory
-
-    Author Email : h.nafees.anwar@gmail.com
-
+--------------------------------------------------------
 
 --------------------------------------------------------
 
@@ -328,16 +313,21 @@ body {
     position: absolute;
     top: 0;
     left: 0;
+    min-height: 100%;
 }
 
 .mask {
     width: 100%;
     height: 100%;
-    opacity: 0.8;
+    opacity: 0.58;
     position: absolute;
     top: 0;
     left: 0;
     background: #1a1b23;
+}
+
+.menu .mask {
+    opacity: 0.7;
 }
 
 .intro-content {
@@ -425,6 +415,7 @@ body {
     -ms-transition: -ms-transform 1s linear;
     -o-transition: -o-transform 1s linear;
     transition: transform 1s linear;
+    min-height: 100%;
 }
 
 .menu > div:hover > img {
@@ -578,7 +569,7 @@ body {
     background: #f5f5f5;
     cursor: initial;
     z-index: 3;
-    height: 100vh;
+    min-height: 100vh;
 }
 
                     /*------------------
@@ -930,6 +921,7 @@ body {
 
 .projet-items {
     padding: 20px;
+    background: #fff;
 }
 
 /*----- Hover Effect Portfolio Image --------*/
@@ -1311,4 +1303,44 @@ body {
     left: 0;
     right: 0;
     width: 100%;
+}
+
+.portfolio-page .image-container-right {
+    background: url(../images/background/portfolio_image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.profile-page .image-container-right {
+    background: url(../images/background/profile_image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.resume-page .image-container-right {
+    background: url(../images/background/resume_image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+.contact-page .image-container-right {
+    background: url(../images/background/contact_image.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.image-container-right {
+    height: 100vh;
+    position: fixed;
+    padding: 0;
+    overflow: hidden;
+    right: 0;
+}
+
+.skills {
+    background: #fff;
+}
+
+.my:before,
+.my:after {
+    content: " ";
+    display: table;
+    clear: both;
 }
