@@ -196,7 +196,7 @@ $(document).ready(function () {
         // Initiate EasyPieChart
 
         $('.skill').easyPieChart({
-            barColor: fillColor,
+            barColor: '#E94C6F',
             trackColor: '#c6c6c6',
             scaleColor: '#c6c6c6',
             scaleLength: 8,
