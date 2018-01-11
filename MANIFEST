@@ -1,0 +1,17 @@
+This zip file contains optimized resources for https://sanek6282.github.io/. The optimized resources are listed below in the format of: 
+filename: url
+
+Note: We only include up to 10 MB of optimized contents. If the
+optimized contents of your page are larger than 10 MB, we list them in
+this file too, with 'NOT INCLUDED' to indicate those URLs require
+further optimization.
+
+css/owl.carousel.css: https://sanek6282.github.io/library/owl-carousel/owl.carousel.css
+css/owl.theme.css: https://sanek6282.github.io/library/owl-carousel/owl.theme.css
+css/style.css: https://sanek6282.github.io/css/style.css
+js/jquery.easing.min.js: https://sanek6282.github.io/library/jquery-easing/jquery.easing.min.js
+js/script.js: https://sanek6282.github.io/js/script.js
+image/home_dp.jpg: https://sanek6282.github.io/images/home_dp.jpg
+image/dp.jpg: https://sanek6282.github.io/images/dp.jpg
+image/profile_image.jpg: https://sanek6282.github.io/images/background/profile_image.jpg
+image/resume_image.jpg: https://sanek6282.github.io/images/background/resume_image.jpg
