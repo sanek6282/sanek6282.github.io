@@ -1,0 +1,8 @@
+AddDefaultCharset UTF-8
+ErrorDocument 404 /404.php
+Options -Indexes
+
+php_value max_execution_time 500
+php_value max_input_time 500
+php_value upload_max_filesize 300M
+php_value post_max_size 300M

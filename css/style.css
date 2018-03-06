@@ -70,7 +70,8 @@ body{overflow-x:hidden;}
 .menu > div{width:100%;height:25%;overflow:hidden;position:relative;cursor:pointer;}
 .menu > div > img{position:absolute;top:0;left:0;width:100%;height:auto;-webkit-transition:-webkit-transform 1s linear;-moz-transition:-moz-transform 1s linear;-ms-transition:-ms-transform 1s linear;-o-transition:-o-transform 1s linear;transition:transform 1s linear;min-height:100%;}
 .menu > div:hover > img{-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-ms-transform:scale(1.2);-o-transform:scale(1.2);transform:scale(1.2);}
-.heading{position:relative;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);}
+.heading{height: 100%; position:relative;top:50%;-webkit-transform:translateY(-50%);-moz-transform:translateY(-50%);-ms-transform:translateY(-50%);-o-transform:translateY(-50%);transform:translateY(-50%);}
+.heading div:first-child{top:50%;transform: translateY(-50%);}
 .heading i{background:rgba(256, 256, 256, 0.2);border-radius:50%;color:#fff;display:block;font-size:25px;height:60px;line-height:60px;margin:auto auto 10px;text-align:center;box-shadow:0 0 0 0 rgba(256, 256, 256, 0.2);width:60px;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
 .menu > div:hover .heading i{box-shadow:0 0 0 50px rgba(256, 256, 256, 0);}
 .heading h2{color:#fff;margin:0;font-size:25px;opacity:0.9;}
@@ -207,3 +208,5 @@ body{overflow-x:hidden;}
 .my:before,
 .my:after{content:" ";display:table;clear:both;}
 .contact_skype {color: #000;}
+.profile-text {position: absolute;left: 108px;top: 48.5%;transform: translateY(-50%);}
+.heading {margin-left: 0; padding-left: 33px;}
