@@ -99,7 +99,6 @@ body{overflow-x:hidden;}
 .story-content div h3{color:#E94C6F;line-height:1;margin-top:0;}
 .story-content div p{text-indent:25px;}
 .story-content div a{border:1px solid #E94C6F;color:#E94C6F;display:block;float:left;margin:29px 5px;padding:10px 25px;text-decoration:none;text-align:center;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
-.story-content div a:hover{background:#E94C6F;color:#fff;}
 .services-container{background:#E94C6F;}
 .services-container h2{color:#fff;}
 .services{text-align:center;padding:15px;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
@@ -210,3 +209,48 @@ body{overflow-x:hidden;}
 .contact_skype {color: #000;}
 .profile-text {position: absolute;left: 108px;top: 48.5%;transform: translateY(-50%);}
 .heading {margin-left: 0; padding-left: 33px;}
+.bttn-fill {
+ 
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  background: #fff;
+  background: transparent;
+  color: #1d89ff;
+  -webkit-transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-fill:before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #E94C6F;
+  content: '';
+  opacity: 0;
+  -webkit-transition: opacity 0.22s ease-out, -webkit-transform 0.22s ease-out;
+  transition: opacity 0.22s ease-out, -webkit-transform 0.22s ease-out;
+  transition: transform 0.22s ease-out, opacity 0.22s ease-out;
+  transition: transform 0.22s ease-out, opacity 0.22s ease-out, -webkit-transform 0.22s ease-out;
+  z-index: -1;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+}
+.bttn-fill:hover,
+.bttn-fill:focus {
+  box-shadow: 0 1px 8px rgba(58,51,53,0.3);
+  color: #fff;
+  -webkit-transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+  transition: all 0.5s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+.bttn-fill:hover:before,
+.bttn-fill:focus:before {
+  opacity: 1;
+  -webkit-transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  transition: opacity 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in;
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in, -webkit-transform 0.3s ease-in;
+  -webkit-transform: scaleX(1);
+          transform: scaleX(1);
+}
