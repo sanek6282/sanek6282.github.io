@@ -88,7 +88,8 @@ body{overflow-x:hidden;}
 .profile-page{background:#1a1b23;}
 .contact-page{background:#272322;}
 .image-container{height:100vh;position:fixed;padding:0;overflow:hidden;}
-.main-heading{position:relative;top:50%;padding-left:50px;-webkit-transform:translateY(200%);-moz-transform:translateY(200%);-ms-transform:translateY(200%);-o-transform:translateY(200%);transform:translateY(200%);}
+.main-heading{position:fixed;left: 1.5%;bottom: 10px;}
+.main-heading h2 {color: #fff;font-size: 28px;}
 .main-heading h1{color:#fff;position:relative;text-align:left;}
 .main-heading h1:after{background-color:#E94C6F;position:absolute;content:"";top:100%;left:0;width:400px;height:6px;}
 .content-container{left:20.833%;position:relative;padding:0;background:#f5f5f5;cursor:initial;z-index:3;min-height:100vh;}
