@@ -58,3 +58,24 @@ footer {
 	background: #666;
 	color: #fff;
 }
+
+.relation {
+	width: 100%;
+	position: relative;
+	max-width: 1030px;
+	margin: 40px auto;
+}
+
+.relation_ratio-16x9 {
+	padding-top: 56.5%;
+	height: 0;
+}
+
+.relation_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
