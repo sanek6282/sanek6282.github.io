@@ -112,12 +112,26 @@ footer {
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-areas: 
 		"l l l l c c c c r r r r";
-		
-
-
 }
 
 .site-iframe-wrapper {
 	border-top: 1px solid black;
 	border-bottom: 1px solid black;
+}
+
+@media screen and (max-width: 520px) {
+	nav ul {
+		padding: 0;
+		margin: 0;
+		display: -webkit-flex;
+		display: -moz-flex;
+		display: -ms-flex;
+		display: -o-flex;
+		display: flex;
+		flex-direction: column;
+	}
+
+	nav ul li {
+		margin: 3px 0;
+	}
 }
