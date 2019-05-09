@@ -2,11 +2,8 @@
 /* CSS Document */
 
 @font-face {
-  font-family: "FONTname";
-  src: url("FILEname.eot") format("eot"),
-  url("FILEname.woff") format("woff"),
-  url("FILEname.ttf") format("truetype");
-  font-weight: 400;
+  font-family: "Stylish";
+  src: url("fonts/Stylish-Regular.ttf") format("truetype");
 }
 
 .container {
@@ -17,6 +14,12 @@
 body {
 	margin: 0;
 	padding: 0;
+}
+
+h2 {
+	margin-top: 22px;
+	margin-bottom: 36px;
+	font-family: 'Stylish', sans-serif;
 }
 
 ul {
@@ -88,4 +91,9 @@ footer {
 
 .greed {
 	margin-top: 50px;
+}
+
+.site-iframe-wrapper {
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
 }
