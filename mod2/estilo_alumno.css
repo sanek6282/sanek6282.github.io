@@ -86,21 +86,21 @@ footer {
 }
 
 .grid-block1 {
-	width: 150px;
+	width: auto;
 	height: 300px;
 	border: 1px solid black;
 	grid-area: l;
 }
 
 .grid-block2 {
-	width: 150px;
+	width: auto;
 	height: 300px;
 	border: 1px solid black;
 	grid-area: c;
 }
 
 .grid-block3 {
-	width: 150px;
+	width: auto;
 	height: 300px;
 	border: 1px solid black;
 	grid-area: r;
