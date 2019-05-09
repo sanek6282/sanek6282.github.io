@@ -106,7 +106,7 @@ footer {
 	grid-area: r;
 }
 
-.greed {
+.grid {
 	margin-top: 50px;
 	display: grid;
 	grid-gap: 12px;
