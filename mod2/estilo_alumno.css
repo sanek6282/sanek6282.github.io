@@ -42,7 +42,7 @@ nav ul li a {
 	text-decoration: none;
 	color: #000000;
 	border: solid 1px #424242;
-	transition: all 0.5s;
+	transition: background 0.5s ease;
 	text-transform: uppercase;
 }
 
