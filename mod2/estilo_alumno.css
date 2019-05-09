@@ -18,9 +18,10 @@ body {
 }
 
 h2 {
-	margin-top: 22px;
-	margin-bottom: 36px;
+	margin-top: 36px;
+	margin-bottom: 20px;
 	font-family: 'Stylish', sans-serif;
+	font-size: 44px;
 }
 
 ul {
@@ -84,14 +85,37 @@ footer {
 	border: 0;
 }
 
-.grid-block {
+.grid-block1 {
 	width: 150px;
 	height: 300px;
 	border: 1px solid black;
+	grid-area: l;
+}
+
+.grid-block2 {
+	width: 150px;
+	height: 300px;
+	border: 1px solid black;
+	grid-area: c;
+}
+
+.grid-block3 {
+	width: 150px;
+	height: 300px;
+	border: 1px solid black;
+	grid-area: r;
 }
 
 .greed {
 	margin-top: 50px;
+	display: grid;
+	grid-gap: 12px;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-areas: 
+		"l l l l c c c c r r r r";
+		
+
+
 }
 
 .site-iframe-wrapper {
