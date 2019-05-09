@@ -134,4 +134,12 @@ footer {
 	nav ul li {
 		margin: 3px 0;
 	}
+	.grid {
+		display: grid;
+		grid-gap: 12px;
+		grid-template-columns: repeat(12, 1fr);
+		grid-template-areas: 
+			"l l l l l l l l l l l l"
+			"c c c c c c r r r r r r";
+	}
 }
