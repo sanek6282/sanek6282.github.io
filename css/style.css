@@ -99,7 +99,7 @@ body{overflow-x:hidden;}
 .story-content img{padding:0;border:1px solid #E94C6F;}
 .story-content div h3{color:#E94C6F;line-height:1;margin-top:0;}
 .story-content div p{text-indent:25px;}
-.story-content div a{border:1px solid #E94C6F;color:#E94C6F;display:block;float:left;margin:29px 5px;padding:10px 25px;text-decoration:none;text-align:center;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
+.story-content div a{border:1px solid #E94C6F;color:#E94C6F;display:block;float:right;margin:44px 5px 30px 5px;padding:10px 25px;text-decoration:none;text-align:center;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
 .services-container{background:#E94C6F;}
 .services-container h2{color:#fff;}
 .services{text-align:center;padding:15px;-webkir-transition:all 0.3s;-moz-transition:all 0.3s;-ms-transition:all 0.3s;-o-transition:all 0.3s;transition:all 0.3s;}
