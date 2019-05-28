@@ -255,3 +255,6 @@ body{overflow-x:hidden;}
   -webkit-transform: scaleX(1);
           transform: scaleX(1);
 }
+.link-upwork {
+	color: #000;
+}
