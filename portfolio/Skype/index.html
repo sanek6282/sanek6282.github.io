@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Внутренний мир</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>	
+	<link rel="shortcut icon" href="favicon.png">
+	<meta name="description" content=""/>
+	<meta name="keywords" content=""/>
+	<meta name="author" content=""/>
+	<meta name="copyright" content="(c)"> 
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta name="HandheldFriendly" content="True"/>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="https://www.walletone.com/merchant/widget/1.0.2/script.js"></script>
+	<script src="js/modal-window.js"></script>
+	<script src="js/random-photo.js"></script>
+</head>
+<script type="text/javascript"> 
+$(document).ready(function(){
+    var HeaderTop = $('#center-headbar').offset().top;
+    $(window).scroll(function(){
+        if( $(window).scrollTop() > HeaderTop ) {
+            $('#center-headbar').addClass('fixedbar');
+        } else {
+            $('#center-headbar').removeClass('fixedbar');
+        }
+    });
+});
+</script>
+
+<body class="" >
+
+	<script type="text/javascript">
+ $(document).ready(function(){
+    $("#menu").on("click","a", function (event) {
+        event.preventDefault();
+        var id  = $(this).attr('href'),
+            top = $(id).offset().top;
+        $('body,html').animate({scrollTop: top}, 1200);
+    });
+});
+</script>
+	<link rel="stylesheet" property="stylesheet" href="css/main.css">
+	<!-- saved from url=(0014)about:internet -->
+	<header id="center-headbar" class="row header">
+		<div class="header_wrapper container">
+			<div class="header_wrapper_logo ">
+				<img class="full header_wrapper_logo_img" src="img/logo_atlas.png" alt="logo">
+			</div>
+			<div class="header_wrapper_list_toggle"></div>
+			<ul id="menu" class="header_wrapper_list_ul "><!--
+				--><li><a class="bttn-stretch" href="#about">О нас</a></li><!--
+				--><li><a class="bttn-stretch" href="#price">Цены</a></li><!--
+				--><li><a class="bttn-stretch" href="#pay">Оплата</a></li><!--
+				--><li><a class="bttn-stretch" href="#testimonial">Отзывы</a></li><!--
+				--><li><a class="bttn-stretch" href="#">Контакты</a></li><!--
+			--></ul>
+			<div class="header_wrapper_contacts">
+				<a class="header_wrapper_contacts_tel"> + 7(904) 239-12-57</a> 
+				<a id="header_order" class="header_wrapper_contacts_order">Оформить заказ</a>
+			</div>
+		</div>
+	</header>
+	<main>
+		<div class="main">
+			<img class="main_img" src="img/main.jpg" alt="">
+			<h1 class="main_title">ПРАЗДНИЧНЫЕ ПОЗДРАВЛЕНИЯ ДЛЯ ДЕТЕЙ ПО СКАЙПУ</h1>
+			<p class="main_desc">Создаем уникальное поздравление и дарим праздничное настроение Вашему любимому ребенку.</p>
+			<button id="main_btn" class="main_btn bttn-pill">Заказать</button>
+		</div>
+		<div id="about" class="uniq container row">
+			<h2 class="title">В чем <span class="orange">уникальность</span> поздравлений по скайпу?</h2>
+			<div class="uniq_left col">
+			<p class="uniq_left_text">Мотор-колесо по технологии Дуюнова — это первый в мире асинхронный электромотор с обмоткой типа «Славянка», обладающий уникальным соотношением мощности с энергопотреблением.
+
+			Новая технология основана на разработанной нами инновационной технологии совмещённых обмоток двигателей (параллельно соединённые звезда и треугольник).
+
+			Благодаря совмещённым обмоткам параметры мотор-колеса значительно улучшаются и повышается энергоэффективность.</p>
+			<div class="uniq_left_block1 row">
+				<div class="uniq_left_block1_item1">
+					Удобно
+				</div>
+				<div class="uniq_left_block1_item2">
+					Просто
+				</div>
+			</div>
+			<div class="uniq_left_block2">
+				<div class="uniq_left_block2_item1">
+					Современно
+				</div>
+				<div class="uniq_left_block2_item2">
+					Экономно
+				</div>
+			</div>
+		</div>
+		<div class="uniq_right col">
+			<img src="img/smile.jpg" alt="img">
+		</div>
+		</div>
+		<div class="sort container row">
+			<h2 class="title"><span class="orange">Виды</span> поздравлений</h2>
+			<div class="sort_block_left">
+				<p class="sort_block_left_title">Анимированные персонажи</p>
+				<ul>
+					<li>Поздравления от любимых, известных персонажей.</li>
+					<li>Возмоность живого общения Вашего ребенка с персонажем.</li>
+					<li>Большой выбор персонажей на любой вкус.</li>
+					<li>Отличное качество персонажей и их анимации.</li>
+					<li>Возможность создания уникального поздравления.</li>
+				</ul>
+			</div>
+
+			<div class="sort_block_right">
+				<p class="sort_block_right_title">Костюмированный аниматор</p>
+				<ul>
+					<li>Живое общение с аниматором в костюме Деда Мороза.</li>
+					<li>Отличное качество видео и звука.</li>
+					<li>Адекватный аниматор с большим опытом ведения детских мероприятий.</li>
+					<li>Возможность живого общения.</li>
+				</ul>
+			</div>
+		</div>
+		<div class="hero container row">
+			<h2 class="title">Анимированные <span class="orange">персонажи</span>  из мультфильмов</h2>
+			<p class="hero_title-desc">Нажмите на имя персонажа для просмотра</p>
+			<div class="hero_choose">
+				<div class="hero_choose-1 row">
+					<img src="img/raketa.png" alt="img">
+					<p>Капитан "Ракета" <br>
+					<span>Х/Ф Стражи Галактики</span></p>
+					
+				</div>
+				<div class="hero_choose-2 row">
+					<img src="img/gift.png" alt="img">
+					<p>Говорящий подарок <br>
+					<span>Для любых праздников</span></p>
+				</div>
+				<div class="hero_choose-3 row">
+					<img src="img/santa.png" alt="img">
+					<p>Дед Мороз <br>
+					<span>Новый год</span></p>
+				</div>
+				<div class="hero_choose-4 row">
+					<img src="img/TF.png" alt="img">
+					<p>Персонаж из игры <br>
+					<span>Team Fortess</span></p>
+				</div>
+			</div>
+			<div class="hero_view">
+				<img id="uniq_right_img" src="#" alt="img">
+			</div>
+		</div>
+		<div class="plus container row">
+			<h2 class="title"><span class="orange">Преимущества</span> поздравления по скайпу</h2>
+			<p>- <span class="orange_text">  Цены</span> гораздо ниже, чем когда вы приглашаете Деда Мороза на дом.</p>
+			<p>- Дед Мороз может поздравить ребенка, даже если вы находитесь <span class="orange_text">в другой стране</span>.</p>
+			<p>- Дед Мороз появится точно в назначенное время. Мы <span class="orange_text">не зависим от пробок</span> на дорогах.
+</p>
+			<p>-Возможность поздравления сразу <span class="orange_text">нескольких детей</span>.</p>
+		</div>
+		<div id="price" class="price container row">
+			<h2 class="title"><span class="orange">Стоимость</span> наших услуг</h2>
+			<div class="row">
+			<div class="price_block_left">
+				<p class="price_block_left_title">
+					Анимированные персонажи
+				</p>
+				<div class="price_block_left_allPrice">
+					1 сек = 20 рублей
+				</div>
+				
+				<div class="price_block_left_oneMin">
+					при заказе, свыше минуты: <br>
+					<span>1 сек = 18 рублей</span>
+				</div>
+				<div class="price_block_left_twoMin">
+					при заказе, свыше трех минут: <br>
+					<span>1 сек = 15 рублей</span>
+				</div>
+			</div>
+			<div class="price_block_right">
+				<p class="price_block_right_title">
+					Костюмированный аниматор
+				</p>
+				<div class="price_block_left_allPrice">
+					1 сек = 20 рублей
+				</div>
+				
+				<div class="price_block_left_oneMin">
+					при заказе, свыше минуты: <br>
+					<span>1 сек = 18 рублей</span>
+				</div>
+				<div class="price_block_left_twoMin">
+					при заказе, свыше трех минут: <br>
+					<span>1 сек = 15 рублей</span>
+				</div>
+			</div></div>
+			<p class="price_desc row">*Если заканчивается оплаченное время, наш аниматор плавно заканчивает диалог и прощается с ребенком. <br>**Нашими специалистами проводится анализ каждого видео-поздравления, поэтому обычно с этим проблем не возникает.</p>
+		</div>
+		<div class="how container row">
+			<h2 class="title"><span class="orange">Как происходит</span> поздравление?</h2>
+			<div class="how_step-1">
+				<p>Отправляете заявку</p>
+			</div>
+			<div class="how_step-2">
+				<p>Сообщаете менеджеру дату и время звонка</p>
+			</div>
+			<div class="how_step-3">
+				<p>Оплачиваете заказ любым удобным способом</p>
+			</div>
+			<div class="how_step-4">
+				<p>В оговоренное время Дед Мороз звонит по скайпу.</p>
+			</div>
+		</div>
+		<div class="need container row">
+			<h2 class="title">Для поздравления <span class="orange">нужно иметь</span>:</h2>
+			<div class="need_step-1">
+				<p>Компьютер с рабочим динамиком или наушниками и микрофоном, ноутбук или планшет.</p>
+			</div>
+			<div class="need_step-2">
+				<p>Желательно веб-камера. Деду Морозу удобнее разговаривать с малышом, когда он его видит.</p>
+			</div>
+			<div class="need_step-3">
+				<p>Установленные Skype, Viber или другие программы с возможностью видеосвязи.</p>
+			</div>
+			<div class="need_step-4">
+				<p>Скорость интернета не менее 30-60 кбит/с</p>
+			</div>
+		</div>
+		<div class="order row">
+			<div class="order_wrapper container">
+			<div class="order_wrapper_form">
+				<div class="order_wrapper_form_title">
+					Оформить заявку
+				</div>
+				<div class="order_wrapper_form_titleDesc">
+					Менеджер свяжется с вами <br> 
+					в ближайшее время
+				</div>
+				<input class="order_wrapper_form_name" type="text" placeholder="Имя">
+				<input class="order_wrapper_form_phone" type="text" placeholder="Телефон">
+				<button class="order_wrapper_form_btn">Отправить</button>
+				<div class="order_wrapper_form_desc">Нажимая кнопку "Отправить" вы даете свое согласие на обработку личных даных</div>
+			</div></div>
+		</div>
+		<div id="pay" class="pay container">
+			<h2 class="title">Способы <span class="orange">оплаты</span></h2>
+			<div id="w1widget"></div>
+			<script>
+			W1.widget({
+			  "pt": "WalletOneRUB,CreditCardRUB,SberOnlineRUB,AlfaclickRUB,PsbRetailRUB,BeelineRUB,MtsRUB,YandexMoneyRUB,QiwiWalletRUB,TinkoffRUB,SvyaznoyRUB,RussianPostRUB,MegafonRUB,LiderRUB,FakturaruRUB,EurosetRUB,ContactRUB,CashTerminalRUB,BankTransferRUB",
+			  "logosSize": "big",
+			  "grayscale": false,
+			  "background": "white",
+			  "fixWidth": "",
+			  "container": "w1widget"
+			});
+			</script>	
+		</div>
+		<div class="contacts">
+			
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer_wrapper container">
+	</div>
+		<div class="footer_bottom ">
+			<div class="container">
+			<div class="footer_bottom_info">
+				<a href="private-police.html">
+					Политики конфиденциальности
+				</a> <br>
+				<a href="user-true.html">
+					Пользовательское соглашение
+				</a>
+			</div>
+			<div class="footer_bottom_social ">
+				<a class="footer_bottom_social_youtube" href="#"></a>
+				<a class="footer_bottom_social_fb" href="#"></a>
+				<a class="footer_bottom_social_vk" href="#"></a>
+			</div>
+			</div>
+		</div>
+	</footer>
+	<div class="modal-content-callback">	
+		<div class="modal-content-callback-close"></div>
+		<h3>Заполните форму</h3>
+		<input class="modal-content-callback-name" type="text" placeholder="Имя">
+		<input class="modal-content-callback-phone" type="text" placeholder="Телефон">
+		<textarea name="info" class="modal-content-callback-info" id="info" cols="30" rows="10" placeholder="Введите текст поздравления (если имеется)"></textarea>
+		<button class="modal-content-callback-btn">Отправить</button>
+		<div class="modal-content-callback-desc">Нажимая кнопку "Отправить" вы даете свое согласие на обработку личных даных</div>
+	</div>
+	<div class="modal-overlay">
+		
+	</div>
+		<script src="js/random-photo.js"></script>
+
+</body>
+</html>
